@@ -15,9 +15,10 @@
         android:layout_height="match_parent"
         android:shrinkColumns="*"
         android:stretchColumns="*"
-        android:id="@+id/tblRegistroResultados"
+        android:id="@+id/tblRealizadas"
+        android:layout_gravity="center"
         android:layout_alignParentTop="true"
-        android:layout_gravity="center">
+        android:layout_alignParentStart="true">
 
         <TableRow
             android:layout_width="match_parent"

@@ -31,5 +31,21 @@
         <item>@string/str_Triangulo</item>
         <item>@string/str_Circulo</item>
     </string-array>
+
+    // Activity Volumenes
+    <string name="str_Esfera">ESFERA</string>
+    <string name="str_Cilindro">CILINDRO</string>
+    <string name="str_Cono">CONO</string>
+    <string name="str_Cubo">CUBO</string>
+
+
+    <string-array name="str_OpcVolumenes">
+        <item>@string/str_Esfera</item>
+        <item>@string/str_Cilindro</item>
+        <item>@string/str_Cono</item>
+        <item>@string/str_Cubo</item>
+    </string-array>
+
+
     <string name="str_Datos">Datos</string>
 </resources>

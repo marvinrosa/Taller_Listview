@@ -8,37 +8,38 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-public class areas_Cuadrado extends AppCompatActivity {
+public class areas_triangulo extends AppCompatActivity {
 
-
-    private EditText ladoCuadrado;
+    private EditText base, altura;
     private Resources res;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_areas__cuadrado);
+        setContentView(R.layout.activity_areas_triangulo);
 
         res = this.getResources();
-       ladoCuadrado = (EditText) findViewById(R.id.txtLado);
+        base = (EditText) findViewById(R.id.txtBase);
+        altura = (EditText)findViewById(R.id.txtAltura);
     }
 
-    public void  AreaCuadrado(View v){
+    public void  AreaTriangulo(View v){
 
-        int lado = Integer.parseInt(ladoCuadrado.getText().toString());
+        int b = Integer.parseInt(base.getText().toString());
+        int h = Integer.parseInt(altura.getText().toString());
         int calculo_area;
         Calculos p = new Calculos();
-        p.CalcularArea_Cuadrado(lado);
-        p.getArea_Cuadrado();
+        p.CalcularArea_Triangulo(b,h);
+        p.getArea_Triangulo();
 
 
-        new AlertDialog.Builder(this).setMessage(res.getString(R.string.str_Area) +':' + p.getArea_Cuadrado())
+        new AlertDialog.Builder(this).setMessage(res.getString(R.string.str_Area) +':' + p.getArea_Triangulo())
                 .setTitle(res.getString(R.string.str_Resultado))
                 .setPositiveButton(res.getString(R.string.str_OK), new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialogo1, int id) {
+                    public void onClick(DialogInterface dialogo1, int id) {
 
-            }
-        }).show();
+                    }
+                }).show();
 
     }
 }

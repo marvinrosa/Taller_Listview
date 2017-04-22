@@ -37,7 +37,19 @@ public class Areas extends AppCompatActivity {
                         i = new Intent (Areas.this, areas_Cuadrado.class);
                         startActivity(i);
                         break;
+                    case 1:
+                        i = new Intent (Areas.this, areas_Rectangulo.class);
+                        startActivity(i);
+                        break;
 
+                    case 2:
+                        i = new Intent (Areas.this, areas_triangulo.class);
+                        startActivity(i);
+
+                    case 3:
+                        i = new Intent (Areas.this, areas_Circulo.class);
+                        startActivity(i);
+                        break;
 
                 }
 
@@ -48,5 +60,12 @@ public class Areas extends AppCompatActivity {
         });
 
 
+    }
+
+    /**
+     * Created by marvi on 22/4/2017.
+     */
+
+    public static class Datos {
     }
 }
