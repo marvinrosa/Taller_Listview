@@ -8,4 +8,12 @@
     <string name="str_Areas">AREAS</string>
     <string name="str_OpeRealizadas">OPERATIONS PERFORMED</string>
     <string name="str_Volumenes">VOLUMES</string>
+    <string name="str_Area">Area</string>
+    <string name="str_Calcular">Calculate</string>
+    <string name="str_Circulo">CIRCLE</string>
+    <string name="str_Cuadrado">SQUARE</string>
+    <string name="str_Limpiar">CLEAN</string>
+    <string name="str_OK">OK</string>
+    <string name="str_Rectagulo">RECTANGLE</string>
+    <string name="str_Triangulo">TRIANGLE</string>
 </resources>

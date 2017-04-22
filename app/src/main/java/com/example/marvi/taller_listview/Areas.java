@@ -28,25 +28,17 @@ public class Areas extends AppCompatActivity {
         ArrayAdapter adapter = new ArrayAdapter(this,android.R.layout.simple_expandable_list_item_1,opc);
         lvAreasOpc.setAdapter(adapter);
 
-        /*
-        lvPrincipalOpc.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+        lvAreasOpc.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 switch (position){
                     case 0:
-                        i = new Intent (Principal.this, Areas.class);
+                        i = new Intent (Areas.this, areas_Cuadrado.class);
                         startActivity(i);
                         break;
 
-                    case 1:
-                        i = new Intent (Principal.this, Volumenes.class);
-                        startActivity(i);
-                        break;
 
-                    case 2:
-                        i = new Intent (Principal.this, Realizadas.class);
-                        startActivity(i);
-                        break;
                 }
 
             }
@@ -54,7 +46,7 @@ public class Areas extends AppCompatActivity {
 
 
         });
-        */
+
 
     }
 }
