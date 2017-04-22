@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Opciones</string>
+    <string name="str_No">No.</string>
+    <string name="str_Operacion">Operación</string>
+    <string name="str_Datos">Datos</string>
+
+    // Activity Principal
+    <string name="str_Areas">AREAS</string>
+    <string name="str_Volumenes">VÓLUMENES</string>
+    <string name="str_OpeRealizadas">OPERACIONES REALIZADAS</string>
+    <string-array name="str_OpcPrincipal">
+        <item>@string/str_Areas</item>
+        <item>@string/str_Volumenes</item>
+        <item>@string/str_OpeRealizadas</item>
+    </string-array>
+
+    // Activity Areas
+    <string name="str_Cuadrado">CUADRADO</string>
+    <string name="str_Rectagulo">RECTÁNGULO</string>
+    <string name="str_Triangulo">TRIÁNGULO</string>
+    <string name="str_Circulo">CÍRCULO</string>
+
+    <string-array name="str_OpcAreas">
+        <item>@string/str_Cuadrado</item>
+        <item>@string/str_Rectagulo</item>
+        <item>@string/str_Triangulo</item>
+        <item>@string/str_Circulo</item>
+    </string-array>
+</resources>
