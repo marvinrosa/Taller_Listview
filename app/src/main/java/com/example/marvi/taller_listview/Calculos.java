@@ -73,7 +73,9 @@ public class Calculos {
     // Cilindro
     public  double getRadio_Cilindro(){ return radio; }
     public void setRadio_Cilindro(double pRadio){ this.radio = pRadio;}
-    public void CalcularVol_Cilindro(double pAltura,double pRadio){volumen= pAltura*pi*(pRadio*pRadio);}
+    public void CalcularVol_Cilindro(double pAltura,double pRadio) {
+        volumen= pi*(pRadio*pRadio*pAltura);
+    }
     public double  getVol_Cilindro(){
         return volumen;
     }
@@ -81,7 +83,9 @@ public class Calculos {
     // Cono
     public  double getRadio_Cono(){ return radio; }
     public void setRadio_Cono(double pRadio){ this.radio = pRadio;}
-    public void CalcularVol_Cono(double pAltura,double pRadio){volumen= (pAltura*pi*(pRadio*pRadio))/3;}
+    public void CalcularVol_Cono(double pAltura,double pRadio){
+        volumen= (pi*pRadio*pRadio*pAltura)/3;
+    }
     public double  getVol_Cono(){
         return volumen;
     }
@@ -91,12 +95,12 @@ public class Calculos {
         return lado;
     }
     public void setLado_Cubo(double pLado){this.lado = pLado;}
-    public void setVol_Cubo(double pVol){this.area = pVol;}
+    public void setVol_Cubo(double pVol){this.volumen = pVol;}
     public void CalcularVol_Cubo(double pLado){
-        area = (pLado*pLado*pLado);
+        volumen = (pLado*pLado*pLado);
     }
     public double  getVol_Cubo(){
-        return area;
+        return volumen;
     }
 
 }

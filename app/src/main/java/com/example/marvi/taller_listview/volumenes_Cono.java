@@ -20,8 +20,8 @@ public class volumenes_Cono extends AppCompatActivity {
         setContentView(R.layout.activity_volumenes__cono);
 
         res = this.getResources();
-        radio= (EditText) findViewById(R.id.txtRadio);
-        altura = (EditText)findViewById(R.id.txtAltura);
+        radio= (EditText) findViewById(R.id.txtRadioCono);
+        altura = (EditText)findViewById(R.id.txtAlturaCono);
 
     }
 

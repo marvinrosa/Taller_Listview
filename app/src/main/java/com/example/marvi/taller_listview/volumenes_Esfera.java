@@ -19,7 +19,7 @@ public class volumenes_Esfera extends AppCompatActivity {
         setContentView(R.layout.activity_volumenes__esfera);
 
         res = this.getResources();
-        radio = (EditText) findViewById(R.id.txtRadio);
+        radio = (EditText) findViewById(R.id.txtRadioEsfera);
     }
 
     public void  VolEsfera(View v){
@@ -31,7 +31,7 @@ public class volumenes_Esfera extends AppCompatActivity {
         p.getVol_Esfera();
 
 
-        new AlertDialog.Builder(this).setMessage(res.getString(R.string.str_Volumen) +':' + p.getVol_Esfera())
+        new AlertDialog.Builder(this).setMessage(res.getString(R.string.str_Volumen) +':' + r)
                 .setTitle(res.getString(R.string.str_Resultado))
                 .setPositiveButton(res.getString(R.string.str_OK), new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialogo1, int id) {

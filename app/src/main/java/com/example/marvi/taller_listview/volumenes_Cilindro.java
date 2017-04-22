@@ -19,8 +19,8 @@ public class volumenes_Cilindro extends AppCompatActivity {
         setContentView(R.layout.activity_volumenes__cilindro);
 
         res = this.getResources();
-        radio= (EditText) findViewById(R.id.txtRadio);
-        altura = (EditText)findViewById(R.id.txtAltura);
+        radio= (EditText) findViewById(R.id.txtRadioCil);
+        altura = (EditText)findViewById(R.id.txtAlturaCil);
     }
 
     public void  VolCilindro(View v){

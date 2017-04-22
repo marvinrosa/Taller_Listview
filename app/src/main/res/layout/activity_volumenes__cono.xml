@@ -37,14 +37,14 @@
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
                 android:ems="10"
-                android:id="@+id/txtradio" />
+                android:id="@+id/txtRadioCono" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
                 android:ems="10"
-                android:id="@+id/txtAltura" />
+                android:id="@+id/txtAlturaCono" />
 
             <LinearLayout
                 android:orientation="horizontal"
@@ -57,7 +57,7 @@
                     android:id="@+id/button4"
                     android:layout_weight="1"
                     android:text="@string/str_Calcular"
-                    android:onClick="VolCilindro" />
+                    android:onClick="VolCono" />
 
                 <Button
                     android:text="@string/str_Limpiar"

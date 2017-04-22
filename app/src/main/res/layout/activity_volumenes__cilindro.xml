@@ -36,14 +36,14 @@
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
                 android:ems="10"
-                android:id="@+id/txtradio" />
+                android:id="@+id/txtRadioCil" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
                 android:ems="10"
-                android:id="@+id/txtAltura" />
+                android:id="@+id/txtAlturaCil" />
 
             <LinearLayout
                 android:orientation="horizontal"

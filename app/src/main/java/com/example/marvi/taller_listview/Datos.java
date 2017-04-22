@@ -11,12 +11,10 @@ public class Datos {
     private static ArrayList<Calculos> calculos = new ArrayList<>();
 
     public static void Guardar(Calculos p){
-
         calculos.add(p);
     }
 
     public  static ArrayList<Calculos> getCalculos(){
-
         return calculos;
     }
 }
