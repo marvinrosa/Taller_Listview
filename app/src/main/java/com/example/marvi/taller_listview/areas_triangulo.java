@@ -25,9 +25,9 @@ public class areas_triangulo extends AppCompatActivity {
 
     public void  AreaTriangulo(View v){
 
-        int b = Integer.parseInt(base.getText().toString());
-        int h = Integer.parseInt(altura.getText().toString());
-        int calculo_area;
+        double b = Double.parseDouble(base.getText().toString());
+        double h = Double.parseDouble(altura.getText().toString());
+        double calculo_area;
         Calculos p = new Calculos();
         p.CalcularArea_Triangulo(b,h);
         p.getArea_Triangulo();

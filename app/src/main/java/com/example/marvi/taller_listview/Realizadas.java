@@ -31,9 +31,9 @@ public class Realizadas extends AppCompatActivity {
             TextView c4 = new TextView(this);
 
             c1.setText("" + i+1);
-            c3.setText(calculos.get(i).getLado_Cuadrado());
-            c4.setText(calculos.get(i).getArea_Cuadrado());
-            c4.setText(calculos.get(i).getArea_Cuadrado());
+           // c3.setText(calculos.get(i).getLado_Cuadrado());
+            //c4.setText(calculos.get(i).getArea_Cuadrado());
+           // c4.setText(calculos.get(i).getArea_Cuadrado());
 
             fila.addView(c1);
             fila.addView(c2);

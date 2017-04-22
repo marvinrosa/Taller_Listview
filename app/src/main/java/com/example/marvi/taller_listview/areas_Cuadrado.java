@@ -25,8 +25,8 @@ public class areas_Cuadrado extends AppCompatActivity {
 
     public void  AreaCuadrado(View v){
 
-        int lado = Integer.parseInt(ladoCuadrado.getText().toString());
-        int calculo_area;
+        double lado = Double.parseDouble(ladoCuadrado.getText().toString());
+        double calculo_area;
         Calculos p = new Calculos();
         p.CalcularArea_Cuadrado(lado);
         p.getArea_Cuadrado();

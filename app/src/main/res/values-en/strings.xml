@@ -16,4 +16,8 @@
     <string name="str_OK">OK</string>
     <string name="str_Rectagulo">RECTANGLE</string>
     <string name="str_Triangulo">TRIANGLE</string>
+    <string name="str_Cilindro">CYLINDER</string>
+    <string name="str_Cono">CONE</string>
+    <string name="str_Cubo">CUBE</string>
+    <string name="str_Esfera">SPHERE</string>
 </resources>

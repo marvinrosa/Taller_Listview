@@ -20,9 +20,9 @@ public class Volumenes extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_volumenes);
 
-        lvVolOpc = (ListView)findViewById(R.id.lvAreas);
+        lvVolOpc = (ListView)findViewById(R.id.lvVol);
         res = this.getResources();
-        opc = res.getStringArray(R.array.str_OpcAreas);
+        opc = res.getStringArray(R.array.str_OpcVolumenes);
 
         ArrayAdapter adapter = new ArrayAdapter(this,android.R.layout.simple_expandable_list_item_1,opc);
         lvVolOpc.setAdapter(adapter);

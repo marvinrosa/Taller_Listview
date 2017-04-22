@@ -6,6 +6,7 @@
     <string name="str_Resultado">RESULTADO</string>
     <string name="str_OK">OK</string>
     <string name="str_Area">Área</string>
+    <string name="str_Volumen">Volúmen</string>
 
     // Activity Principal
     <string name="str_Areas">AREAS</string>

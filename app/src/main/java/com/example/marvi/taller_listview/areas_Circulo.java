@@ -25,8 +25,8 @@ public class areas_Circulo extends AppCompatActivity{
 
     public void  AreaCirculo(View v){
 
-        int r = Integer.parseInt(radio.getText().toString());
-        int calculo_area;
+        double r = Double.parseDouble(radio.getText().toString());
+        double calculo_area;
         Calculos p = new Calculos();
         p.CalcularArea_Circulo(r);
         p.getArea_Circulo();
