@@ -38,7 +38,8 @@
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
                 android:ems="10"
-                android:id="@+id/txtRadioEsfera" />
+                android:id="@+id/txtRadioEsfera"
+                android:hint="@string/str_msjRadio" />
 
             <LinearLayout
                 android:orientation="horizontal"

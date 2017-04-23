@@ -37,14 +37,16 @@
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
                 android:ems="10"
-                android:id="@+id/txtRadioCono" />
+                android:id="@+id/txtRadioCono"
+                android:hint="@string/str_msjRadio" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
                 android:ems="10"
-                android:id="@+id/txtAlturaCono" />
+                android:id="@+id/txtAlturaCono"
+                android:hint="@string/str_msjAltura" />
 
             <LinearLayout
                 android:orientation="horizontal"

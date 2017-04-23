@@ -3,6 +3,19 @@
     <string name="str_No">No.</string>
     <string name="str_Operacion">Operación</string>
 
+
+    // Mensajes
+
+    <string name="str_msjRadio">Escribe el radio</string>
+    <string name="str_msjLado">Escribe el lado</string>
+    <string name="str_msjBase">Escribe la base</string>
+    <string name="str_msjAltura">Escribe la altura</string>
+
+
+
+
+
+
     <string name="str_Resultado">RESULTADO</string>
     <string name="str_OK">OK</string>
     <string name="str_Area">Área</string>

@@ -36,7 +36,8 @@
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
                 android:ems="10"
-                android:id="@+id/txtLado" />
+                android:id="@+id/txtLado"
+                android:hint="@string/str_msjLado" />
 
             <LinearLayout
                 android:orientation="horizontal"

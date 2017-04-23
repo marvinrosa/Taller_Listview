@@ -22,4 +22,8 @@
     <string name="str_Esfera">SPHERE</string>
     <string name="str_Volumen">Volume</string>
     <string name="str_Opciones">OPTIONS</string>
+    <string name="str_msjAltura">Type the high</string>
+    <string name="str_msjBase">Type the base</string>
+    <string name="str_msjLado">Type the side</string>
+    <string name="str_msjRadio">Type the radio</string>
 </resources>
