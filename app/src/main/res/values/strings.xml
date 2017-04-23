@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Opciones</string>
+    <string name="app_name">Taller ListView</string>
     <string name="str_No">No.</string>
     <string name="str_Operacion">Operación</string>
 
@@ -49,4 +49,5 @@
 
 
     <string name="str_Datos">Datos</string>
+    <string name="str_Opciones">OPCIONES</string>
 </resources>

@@ -40,4 +40,8 @@ public class volumenes_Cubo extends AppCompatActivity {
                 }).show();
 
     }
+    public void Limpiar(View v){
+        ladoCubo.setText("");
+        ladoCubo.setFocusable(true);
+    }
 }

@@ -41,4 +41,10 @@ public class areas_Circulo extends AppCompatActivity{
                 }).show();
 
     }
+
+
+    public void Limpiar(View v){
+        radio.setText("");
+        radio.setFocusable(true);
+    }
 }

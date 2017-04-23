@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">OPTIONS</string>
+    <string name="app_name">Taller ListView</string>
     <string name="str_Datos">Data</string>
     <string name="str_Operacion">Operation</string>
     <string name="str_Resultado">Result</string>
@@ -20,4 +20,6 @@
     <string name="str_Cono">CONE</string>
     <string name="str_Cubo">CUBE</string>
     <string name="str_Esfera">SPHERE</string>
+    <string name="str_Volumen">Volume</string>
+    <string name="str_Opciones">OPTIONS</string>
 </resources>

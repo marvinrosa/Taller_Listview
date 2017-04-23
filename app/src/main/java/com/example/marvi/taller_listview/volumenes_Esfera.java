@@ -40,4 +40,9 @@ public class volumenes_Esfera extends AppCompatActivity {
                 }).show();
 
     }
+
+    public void Limpiar(View v){
+        radio.setText("");
+        radio.setFocusable(true);
+    }
 }

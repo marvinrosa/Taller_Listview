@@ -44,4 +44,9 @@ public class volumenes_Cono extends AppCompatActivity {
                 }).show();
 
     }
+    public void Limpiar(View v){
+        radio.setText("");
+        altura.setText("");
+        radio.setFocusable(true);
+    }
 }

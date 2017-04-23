@@ -41,4 +41,9 @@ public class areas_Cuadrado extends AppCompatActivity {
         }).show();
 
     }
+
+    public void Limpiar(View v){
+        ladoCuadrado.setText("");
+        ladoCuadrado.setFocusable(true);
+    }
 }

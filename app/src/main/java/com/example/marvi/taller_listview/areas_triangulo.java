@@ -42,4 +42,10 @@ public class areas_triangulo extends AppCompatActivity {
                 }).show();
 
     }
+
+    public void Limpiar(View v){
+        base.setText("");
+        altura.setText("");
+        altura.setFocusable(true);
+    }
 }

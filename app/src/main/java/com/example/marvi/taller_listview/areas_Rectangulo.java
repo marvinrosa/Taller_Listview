@@ -43,4 +43,11 @@ public class areas_Rectangulo extends AppCompatActivity {
                 }).show();
 
     }
+
+
+    public void Limpiar(View v){
+        base.setText("");
+        altura.setText("");
+        base.setFocusable(true);
+    }
 }

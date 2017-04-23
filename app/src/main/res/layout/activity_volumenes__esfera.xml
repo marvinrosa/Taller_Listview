@@ -58,7 +58,8 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/button5"
                     android:layout_weight="1"
-                    android:text="@string/str_Limpiar" />
+                    android:text="@string/str_Limpiar"
+                    android:onClick="Limpiar" />
             </LinearLayout>
 
         </LinearLayout>
